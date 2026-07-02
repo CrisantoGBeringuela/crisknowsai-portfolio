@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Dependency/build folders not used by this static site
+node_modules/
+dist/
+build/
+
+# Environment files
+.env
+.env.*

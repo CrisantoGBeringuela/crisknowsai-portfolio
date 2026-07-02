@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Professional portrait placeholder">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#12365f"/>
+      <stop offset="48%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="52%" stop-color="#7b61ff"/>
+      <stop offset="100%" stop-color="#50f5a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <circle cx="400" cy="400" r="340" fill="none" stroke="url(#glow)" stroke-width="8" opacity=".9"/>
+  <circle cx="400" cy="300" r="112" fill="#d9e8f5"/>
+  <path d="M210 695c22-145 102-229 190-229s168 84 190 229z" fill="#d9e8f5"/>
+  <path d="M236 704c28-111 91-172 164-172s136 61 164 172z" fill="#07111f" opacity=".88"/>
+  <path d="M278 704l83-168 39 72 39-72 83 168z" fill="#0f2440"/>
+  <path d="M371 608h58l23 96H348z" fill="#00cfff"/>
+  <text x="400" y="745" fill="#00f5ff" font-family="Arial, sans-serif" font-size="58" font-weight="700" text-anchor="middle">CB</text>
+</svg>

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Crisanto G. Beringuela, AI Automation Specialist and GoHighLevel Expert building intelligent business ecosystems."
+    />
+    <title>Crisanto G. Beringuela | AI Automation Specialist</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="loader" id="loader" aria-hidden="true">
+      <div class="loader-ring"></div>
+      <p>Initializing AI ecosystem</p>
+    </div>
+
+    <canvas id="networkCanvas" aria-hidden="true"></canvas>
+    <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Crisanto G. Beringuela home">
+        <span class="brand-mark">CB</span>
+        <span>Crisanto G. Beringuela</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light mode">
+        <span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-content reveal">
+          <div class="eyebrow">AI Automation Specialist & GHL Expert</div>
+          <h1>AI Automation Specialist Engineering Intelligent Business Ecosystems</h1>
+          <p>
+            I build AI-powered systems that connect apps, data, workflows, and customer
+            interactions into one automated business engine.
+          </p>
+
+          <div class="hero-actions" aria-label="Portfolio actions">
+            <a class="button button-primary" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="#contact">Book a Discovery Call</a>
+          </div>
+
+          <div class="metrics" aria-label="Automation metrics">
+            <div>
+              <strong data-count="24">0</strong>
+              <span>Projects Built</span>
+            </div>
+            <div>
+              <strong data-count="41">0</strong>
+              <span>Systems Automated</span>
+            </div>
+            <div>
+              <strong data-count="68">0</strong>
+              <span>APIs Integrated</span>
+            </div>
+            <div>
+              <strong data-count="5200">0</strong>
+              <span>Hours Saved</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-system reveal">
+          <div class="profile-orbit" aria-hidden="true">
+            <span>AI</span>
+            <span>API</span>
+            <span>CRM</span>
+            <span>GHL</span>
+            <span>n8n</span>
+          </div>
+          <div class="profile-card">
+            <img
+              src="./assets/me.jpg"
+              alt="Crisanto G. Beringuela professional portrait"
+              onerror="this.onerror=null; this.src='./assets/profile-placeholder.svg';"
+            />
+          </div>
+        </div>
+
+        <div class="tech-marquee reveal" aria-label="Technology stack logos">
+          <div class="tech-track">
+            <div class="tech-card"><img src="./assets/tech-stack/airtable.jpg" alt="Airtable" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/claude.png" alt="Claude" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/elevenlabs.jpg" alt="ElevenLabs" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/google.webp" alt="Google Workspace" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/highlevel.png" alt="GoHighLevel" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/make.jpg" alt="Make" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/meta.png" alt="Meta" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/n8n.png" alt="n8n" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/shopify.png" alt="Shopify" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/stripe.png" alt="Stripe" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/supabase.png" alt="Supabase" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/twilio.png" alt="Twilio" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/whatsapp.jpg" alt="WhatsApp" loading="lazy" /></div>
+            <div class="tech-card"><img src="./assets/tech-stack/zapier.png" alt="Zapier" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/airtable.jpg" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/claude.png" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/elevenlabs.jpg" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/google.webp" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/highlevel.png" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/make.jpg" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/meta.png" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/n8n.png" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/shopify.png" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/stripe.png" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/supabase.png" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/twilio.png" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/whatsapp.jpg" alt="" loading="lazy" /></div>
+            <div class="tech-card" aria-hidden="true"><img src="./assets/tech-stack/zapier.png" alt="" loading="lazy" /></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Systems Architect</span>
+          <h2>Building Intelligent Systems, Not Just Automations</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>
+              I specialize in designing and building AI-powered ecosystems that connect
+              applications, automate workflows, eliminate repetitive tasks, and improve
+              business operations.
+            </p>
+            <p>
+              I help businesses transform manual processes into intelligent systems through
+              AI agents, CRM automation, API integrations, and scalable workflow architectures.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card reveal">
+              <span>01</span>
+              <h3>Voice AI Agents</h3>
+              <p>Conversational systems for calls, intake, follow-up, and qualification.</p>
+            </article>
+            <article class="service-card reveal">
+              <span>02</span>
+              <h3>GHL CRM Setup</h3>
+              <p>Funnels, pipelines, calendars, tags, triggers, and client operations.</p>
+            </article>
+            <article class="service-card reveal">
+              <span>03</span>
+              <h3>Workflow Automation</h3>
+              <p>Reliable process engines that move data and trigger work automatically.</p>
+            </article>
+            <article class="service-card reveal">
+              <span>04</span>
+              <h3>Lead Generation Systems</h3>
+              <p>Capture, qualify, route, and nurture leads across modern sales channels.</p>
+            </article>
+            <article class="service-card reveal">
+              <span>05</span>
+              <h3>API Integrations</h3>
+              <p>Custom app connections, webhooks, data syncs, and operational dashboards.</p>
+            </article>
+            <article class="service-card reveal">
+              <span>06</span>
+              <h3>Appointment Booking Systems</h3>
+              <p>Scheduling flows with confirmation, reminders, and internal alerts.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Technical Showcase</span>
+          <h2>Automation Projects Built for Real Business Problems</h2>
+        </div>
+
+        <div class="project-stack">
+          <article class="project-card reveal">
+            <a
+              class="video-shell"
+              href="https://www.loom.com/share/fc0657b24fd44f2cba320490a9e2fd71"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open AI Voice Receptionist Loom demo"
+            >
+              <iframe
+                src="https://www.loom.com/embed/fc0657b24fd44f2cba320490a9e2fd71"
+                title="AI Voice Receptionist appointment booking Loom demo"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+            </a>
+            <div class="project-info">
+              <h3>AI Voice Receptionist with VAPI + Google Calendar</h3>
+              <p><strong>Problem:</strong> Businesses miss calls outside operating hours or spend significant staff time answering repetitive scheduling questions.</p>
+              <p><strong>Solution:</strong> Built an AI voice receptionist using VAPI and Google Calendar that handles incoming calls, checks availability, and books appointments automatically.</p>
+              <p><strong>Impact:</strong> Provided 24/7 appointment booking, reduced administrative workload, improved customer response speed, and eliminated scheduling bottlenecks.</p>
+              <div class="tool-list">
+                <span>VAPI</span>
+                <span>n8n</span>
+                <span>Google Calendar API</span>
+                <span>Airtable</span>
+                <span>API Integration</span>
+                <span>JavaScript</span>
+              </div>
+              <a class="button button-secondary" href="https://www.loom.com/share/fc0657b24fd44f2cba320490a9e2fd71" target="_blank" rel="noreferrer">Watch Full Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a
+              class="video-shell"
+              href="https://www.loom.com/share/b1fefe9eb311498d85ebcfc8a26793af"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open AI Guest Feedback Automation Loom demo"
+            >
+              <iframe
+                src="https://www.loom.com/embed/b1fefe9eb311498d85ebcfc8a26793af"
+                title="AI Guest Feedback Automation with Zapier Loom demo"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+            </a>
+            <div class="project-info">
+              <h3>AI Guest Feedback Automation with Zapier</h3>
+              <p><strong>Problem:</strong> Restaurants manually read reviews, surveys, and complaints, making it slow to find urgent issues and repeated problems.</p>
+              <p><strong>Solution:</strong> Built a Zapier automation using AI by Zapier to classify feedback by category, sentiment, urgency, summary, and suggested action. Urgent cases are sent to Slack, and weekly reports are generated for leadership.</p>
+              <p><strong>Impact:</strong> Managers can respond faster, reduce manual work, and see customer issues clearly every week.</p>
+              <div class="tool-list">
+                <span>Zapier</span>
+                <span>Google Forms</span>
+                <span>Slack</span>
+                <span>Google Docs</span>
+                <span>AI by Zapier</span>
+              </div>
+              <a class="button button-secondary" href="https://www.loom.com/share/b1fefe9eb311498d85ebcfc8a26793af" target="_blank" rel="noreferrer">Watch Full Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a
+              class="video-shell"
+              href="https://www.loom.com/share/e86228174dec4edfb069aa7acb0ea719"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open Content Repurposing Posting Loom demo"
+            >
+              <iframe
+                src="https://www.loom.com/embed/e86228174dec4edfb069aa7acb0ea719"
+                title="Content Repurposing Posting Loom demo"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+            </a>
+            <div class="project-info">
+              <h3>Content Repurposing Posting for Facebook and LinkedIn | Zapier</h3>
+              <p><strong>Problem:</strong> Turning videos into social posts required significant manual effort.</p>
+              <p><strong>Solution:</strong> Built an AI workflow that transcribes videos, generates captions, and publishes to Facebook and LinkedIn.</p>
+              <p><strong>Impact:</strong> Reduced preparation time by up to 80%, improved consistency, expanded reach, and removed repetitive tasks.</p>
+              <div class="tool-list">
+                <span>Zapier</span>
+                <span>AI Builder</span>
+              </div>
+              <a class="button button-secondary" href="https://www.loom.com/share/e86228174dec4edfb069aa7acb0ea719" target="_blank" rel="noreferrer">Watch Full Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a
+              class="video-shell"
+              href="https://www.loom.com/share/18fb9cb6f1a749ac9cdba4e6396d1aa5"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open Facebook AI Chatbot Loom demo"
+            >
+              <iframe
+                src="https://www.loom.com/embed/18fb9cb6f1a749ac9cdba4e6396d1aa5"
+                title="Facebook Page AI Chatbot Loom demo"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+            </a>
+            <div class="project-info">
+              <h3>Facebook Page AI Chatbot + Airtable with WhatsApp Notify</h3>
+              <p><strong>Problem:</strong> Slow Facebook inquiry responses caused missed leads and delayed service.</p>
+              <p><strong>Solution:</strong> Built an AI chatbot that answers inquiries, qualifies leads, stores data in Airtable, and sends WhatsApp alerts.</p>
+              <p><strong>Impact:</strong> Reduced manual replies by 70%, moved response time from hours to seconds, and improved lead capture.</p>
+              <div class="tool-list">
+                <span>n8n</span>
+                <span>Airtable</span>
+                <span>WhatsApp</span>
+                <span>AI Chatbot</span>
+              </div>
+              <a class="button button-secondary" href="https://www.loom.com/share/18fb9cb6f1a749ac9cdba4e6396d1aa5" target="_blank" rel="noreferrer">Watch Full Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a
+              class="video-shell"
+              href="https://www.loom.com/share/6be2e8da79b4463a8d33b1deea1f5bff"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open Stripe Shopify workflow Loom demo"
+            >
+              <iframe
+                src="https://www.loom.com/embed/6be2e8da79b4463a8d33b1deea1f5bff"
+                title="Stripe Shopify workflow Loom demo"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+            </a>
+            <div class="project-info">
+              <h3>Stripe-Shopify Order & Inventory Workflow with Airtable + Slack</h3>
+              <p><strong>Problem:</strong> Orders, inventory, and payments were tracked manually across several systems.</p>
+              <p><strong>Solution:</strong> Automated order sync, inventory updates, duplicate prevention, and low-stock Slack alerts.</p>
+              <p><strong>Impact:</strong> Removed manual reconciliation, reduced inventory errors, and centralized operational data.</p>
+              <div class="tool-list">
+                <span>n8n</span>
+                <span>Shopify</span>
+                <span>Stripe</span>
+                <span>Airtable</span>
+                <span>Slack</span>
+              </div>
+              <a class="button button-secondary" href="https://www.loom.com/share/6be2e8da79b4463a8d33b1deea1f5bff" target="_blank" rel="noreferrer">Watch Full Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a
+              class="video-shell"
+              href="https://www.loom.com/share/619a118f87c8464785e1839488d59d01"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open GHL Automation Setup Loom demo"
+            >
+              <iframe
+                src="https://www.loom.com/embed/619a118f87c8464785e1839488d59d01"
+                title="GHL Automation Setup Loom demo"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+            </a>
+            <div class="project-info">
+              <h3>GHL Automation Setup</h3>
+              <p><strong>Problem:</strong> Manual real estate lead handling delayed follow-ups and appointment scheduling.</p>
+              <p><strong>Solution:</strong> Built a landing page integrated with GoHighLevel for lead capture, tagging, emails, notifications, and bookings.</p>
+              <p><strong>Impact:</strong> Faster responses, reduced workload, automated scheduling, and stronger lead management.</p>
+              <div class="tool-list">
+                <span>Claude 3.5 Sonnet</span>
+                <span>GoHighLevel</span>
+                <span>Calendar Management</span>
+                <span>CRM Automation</span>
+              </div>
+              <a class="button button-secondary" href="https://www.loom.com/share/619a118f87c8464785e1839488d59d01" target="_blank" rel="noreferrer">Watch Full Demo</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <div class="project-modal" id="projectModal" aria-hidden="true">
+        <div class="project-modal-backdrop" data-modal-close></div>
+        <div class="project-modal-panel" role="dialog" aria-modal="true" aria-labelledby="projectModalTitle">
+          <button class="project-modal-close" type="button" data-modal-close aria-label="Close project video">&times;</button>
+          <div class="project-modal-video" id="projectModalVideo"></div>
+          <div class="project-modal-content">
+            <h3 id="projectModalTitle"></h3>
+            <div class="project-modal-copy" id="projectModalCopy"></div>
+            <div class="project-modal-tags" id="projectModalTags"></div>
+            <a class="button button-secondary" id="projectModalLink" href="#" target="_blank" rel="noreferrer">Open Loom Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <section class="section contact" id="contact">
+        <div class="section-heading contact-heading reveal">
+          <span class="eyebrow">Start the System</span>
+          <h2>Build Your AI Automation Ecosystem</h2>
+          <p>
+            Let's connect your tools, automate your workflows, and turn your business processes
+            into an intelligent system.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <article class="contact-card inquiry-card reveal">
+            <div>
+              <h3>Send Project Inquiry</h3>
+              <p>Tell me about your business and the automation challenges you want to solve.</p>
+            </div>
+
+            <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="d7532652-78e3-4941-8978-ba8c05778df1" />
+              <input type="hidden" name="subject" value="New Portfolio Inquiry from Website" />
+              <input type="hidden" name="from_name" value="CrisKnowsAI Portfolio" />
+              <input type="hidden" name="redirect" value="false" />
+              <input type="checkbox" name="botcheck" class="botcheck" tabindex="-1" autocomplete="off" />
+
+              <label>
+                Name
+                <input name="name" type="text" autocomplete="name" placeholder="Your name" required />
+              </label>
+              <label>
+                Email
+                <input name="email" type="email" autocomplete="email" placeholder="you@company.com" required />
+              </label>
+              <label>
+                Business / Company
+                <input name="company" type="text" autocomplete="organization" placeholder="Company name" required />
+              </label>
+              <label>
+                What do you want to automate?
+                <textarea name="message" rows="6" placeholder="Lead follow-up, CRM workflows, AI agents, bookings, reporting..." required></textarea>
+              </label>
+
+              <button class="button button-primary" id="submitInquiry" type="submit">Send Project Inquiry</button>
+              <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            </form>
+          </article>
+
+          <article class="contact-card calendly-card reveal">
+            <div>
+              <h3>Book a Discovery Call</h3>
+              <p>
+                Schedule a free 30-minute consultation to discuss your business challenges,
+                automation opportunities, and AI solutions tailored to your workflow.
+              </p>
+            </div>
+
+            <ul class="trust-list" aria-label="Discovery call benefits">
+              <li>Free Consultation</li>
+              <li>No Obligation</li>
+              <li>30-Minute Strategy Session</li>
+              <li>Personalized AI Recommendations</li>
+            </ul>
+
+            <div class="calendly-shell">
+              <div class="calendly-loading" id="calendlyLoading">Loading scheduler</div>
+              <iframe
+                id="calendlyFrame"
+                title="Book a discovery call with Crisanto G. Beringuela"
+                src="https://calendly.com/crisknowsai/30min?hide_gdpr_banner=1&background_color=07111f&text_color=f4f9ff&primary_color=00cfff"
+                loading="lazy"
+              ></iframe>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Crisanto G. Beringuela</strong>
+        <span>AI Automation Specialist & GHL Expert</span>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="#top">Portfolio</a>
+        <a href="#projects">Loom Demos</a>
+        <a href="https://www.linkedin.com/in/crisanto-beringuela-318676292" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://www.upwork.com/freelancers/~01d08e6e383cebd92d" target="_blank" rel="noreferrer">Upwork</a>
+        <a href="mailto:crisknowsai@gmail.com">Email</a>
+      </nav>
+      <small>Copyright <span id="year"></span> Crisanto G. Beringuela. All rights reserved.</small>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
